@@ -19,6 +19,6 @@ begin
     output <=
         in0 when sel = '0' else
         in1 when sel = '1' else
-        (others => '0');
+        (others => '0')
     
 end BHV;
